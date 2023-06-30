@@ -1,0 +1,352 @@
+@media (max-width:600px) {
+    .nav-items {
+        display: none;
+    }
+
+    .navitems {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-items {
+       
+        width: 100%;
+        background-color: #2c333f;
+        position: absolute;
+        top: 80px;
+        text-align: center;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+
+    
+   
+
+
+    .navitems li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .nav-bar {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: 80px;
+    }
+
+    .nav-bar #hamberger{
+        padding-right: 20px;
+    }
+
+     #xmark{
+        padding-right: 20px;
+    }
+
+    .nav-bar a {
+        padding-left: 20px;
+        line-height: 30px;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .myself h2 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .myself h3 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .myself {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+
+    .myself p {
+        padding-top: 25px;
+    }
+
+    .ci {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .circle-image {
+        box-shadow:
+            0 0 2px #fff,
+            0 0 10px #0ef;
+        color: #323946;
+        overflow: hidden;
+        width: 250px;
+        height: 250px;
+        border-radius: 300px;
+    }
+
+    .circle-image img {
+        width: 180px;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nam,
+    .em {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        row-gap: 30px;
+    }
+
+    .nam input,
+    .em input {
+        width: 80%;
+    }
+
+    .contact textarea {
+        width: 80%;
+    }
+
+    .project-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .project-image img {
+        width: 100%;
+        height: 180px
+    }
+
+    .image {
+        width: 80%;
+        height: 100%;
+    }
+
+    .image img {
+        height: 100%;
+    }
+
+    footer {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+@media (min-width:601px) and (max-width:1240px) {
+    .nav-items {
+        display: none;
+    }
+
+    .navitems {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-items {
+        width: 100%;
+        background-color: #2c333f;
+        position: absolute;
+        top: 60px;
+        text-align: center;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+
+
+    .navitems li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nav-bar {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .nav-bar #hamberger{
+        padding-right: 20px;
+    }
+
+     #xmark{
+        padding-right: 20px;
+    }
+
+    .nav-bar a {
+        padding-left: 40px;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        padding-top: 150px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .myself {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 50px;
+
+    }
+
+    .ci {
+        padding-top: 20px;
+
+    }
+
+    .ham-about {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #3c424d;
+        width: 100%;
+        z-index: 9999;
+        top: 60px;
+        margin-right: 100%;
+        transition: .6s;
+        row-gap: 50px;
+    }
+
+    .navitems li:hover {
+        text-shadow:
+            0 0 2px #fff,
+            0 0 10px #0ef;
+        color: #fff;
+    }
+
+    .nam,
+    .em {
+        display: flex;
+
+    }
+
+    .nam input,
+    .em input {
+        width: 45%;
+    }
+
+    .contact textarea {
+        width: 94%;
+    }
+
+    .skill h1 {
+        font-size: 20px;
+
+    }
+
+    .project-image {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+
+
+    }
+
+
+    .image {
+        width: 40%;
+        height: 100%;
+    }
+
+    .image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+}
+
+@media (min-width:1241px) {
+    .nav-bar i {
+        display: none;
+    }
+
+
+    #xmark{
+        display: none;
+    }
+    
+    #hamberger{
+        display: none;
+    }
+    
+    .nav-bar {
+        display: flex;
+        width: 100%;
+        ;
+        justify-content: space-between;
+    }
+
+    .nav-bar .port a {
+        padding-left: 40px;
+    }
+
+    .nav-bar .toggle {
+        margin-right: 40px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 120px;
+        padding-bottom: 140px;
+    }
+
+    .myself {
+        padding-left: 100px;
+        padding-top: 60px;
+    }
+
+    .ci {
+        margin-right: 80px;
+    }
+
+    .aboutme p {
+        width: 80%;
+    }
+
+}
